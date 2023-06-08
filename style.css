@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+}
+
+footer {
+    width: auto;
+    height: 700px;
+    background-color: #3E1E01;
+    margin-top: 100px;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    background: #3E1E01;
+    display: flex;
+}
+
+.header_logo {
+    width: 252px;
+    height: 120px;
+    background: #e3e3e3;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.header_name , .header_subTitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.header_name-wrapper {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    
+}
+
+.header_subTitle {
+    font-size: 20px;
+    margin-top: -30px;
+    margin-left: 140px;
+}
+
+.StartScreen {
+    width: 100%;
+    height: 1031px;
+    background-image: url(./IMG/StartScreenBG.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.StartScreen_Text {
+    width: 500px;
+    height: 100px;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 26px;
+    flex-direction: column;
+    margin-left: 200px;
+    color: #fff7ef;
+    margin-left: 322px;
+    margin-top: 240px;
+}
+
+.StartScreen_Button {
+    width: 256px;
+    height: 61px;
+    background: #FFF5F5;
+    border-radius: 60px;
+    border: none;
+    margin-left: 50px;
+    font-size: 24px;
+    font-family: Roboto;
+    font-style: normal;
+}
+
+.StartScreen_Text_Style {
+    width: 551px;
+    height: 45px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    margin-left: -90px;
+}
+
+.StartScreen_Text_Sell {
+    width: 684px;
+    height: 37px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    margin-left: -150px;
+}
+
+.Advantages {
+    width: 100%;
+    height: 3074px;
+    color: #ffffff;
+}
+
+.Advantages_ItemWrapper {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Advantages_Item {
+    width: 100%;
+    height: 769px;
+    color: #000000;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Advantages_Title {
+    margin-top: 100px;
+    color: #000000;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.Advantages_Itemfirst {
+    background-image: url(./IMG/Advantages_ItemfirstIMG.svg);
+    position: absolute;
+    width: 100%;
+    height: 1413px;
+}
+
+.Advantages_Item2 {
+    background-image: url(./IMG/Advantages_Item2IMG.svg);
+    position: absolute;
+    width: 100%;
+    height: 1413px;
+    margin-top: 1410px;
+}
+
+.Right {
+    position: absolute;
+    margin-top: 2111px;
+    margin-left: 764px;
+}
+
+.Advantages_Item_Text {
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    width: 423px;
+    height: 84px;
+    margin-top: 208px;
+    margin-left: 217px;
+    color:  black;
+}
+
+.Advantages_Item_Text_Dostavka {
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    width: 423px;
+    height: 84px;
+    margin-top: 1000px;
+    margin-left: 1150px;
+    color:  black;
+    position: absolute;
+    
+}
+
+.Advantages_Item_Text_DovolKlient {
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    width: 423px;
+    height: 84px;
+    margin-top: 258px;
+    margin-left: 217px;
+    color:  black;
+    position: absolute;
+}
+
+.Advantages_Item_Text_KachMater {
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    width: 423px;
+    height: 84px;
+    margin-top: 2400px;
+    margin-left: 1150px;
+    color:  black;
+    position: absolute;
+}
+
+.Products {
+    width: 100%;
+    height: auto;
+}
+
+.Products_Wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 140px;
+    margin-left: 160px;
+    height: inherit;
+    width: calc(100% - 320px);
+} 
+
+.Products_Wrapper_Item {
+    width: 418px;
+    height: 514px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Products_Wrapper_Item_Name {
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    text-align: left;
+    margin-top: 300px;
+}
+
+.Products_Wrapper_Item_Prise {
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: left;
+}
+
+.Products_Wrapper_Item_Button {
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: left;
+    border-radius: 30px;
+    border-color: bisque;
+}
+
+.Products_Wrapper_Item_IMG {
+    width: 420px;
+    height: 290px;
+    position: absolute;
+}
+
+.footerNavigation_Item {
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    text-align: left;
+    color: #FFF5F5;
+    display: flex;
+    justify-content: center;
+}
+
+.Maps {
+    width: 360px;
+    height: 360px;
+    margin-top: 150px;
+    border-radius: 50px;
+    margin-left: 60px;
+}
+
+.footerNavigation_branches {
+    position: absolute;
+    width: 363px;
+    height: 29px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.footerNavigation_kontakts {
+    position: absolute;
+    width: 363px;
+    height: 29px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: calc(100% / 2);
+}
+
+.footerNavigation_number {
+    position: absolute;
+    width: 363px;
+    height: 29px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 100px;
+    margin-left: calc(100% / 2);
+}
+
+.footerNavigation_mail {
+    position: absolute;
+    width: 363px;
+    height: 29px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 150px;
+    margin-left: calc(100% / 2);
+}
+
+.footerNavigation_networks {
+    position: absolute;
+    width: 363px;
+    height: 29px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 50px;
+    margin-left: 1600px;
+}
+
+.bottom {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: #281300;
+    margin-top: 600px;
+}
+
